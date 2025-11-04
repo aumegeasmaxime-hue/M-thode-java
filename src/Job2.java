@@ -10,5 +10,6 @@ public class Job2 {
 
     public static void main(String[] args) {
         bonjour (true) ;
+        bonjour (false) ;
     }
 }
