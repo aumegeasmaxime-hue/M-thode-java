@@ -1,7 +1,8 @@
 public class Job3 {
 
     public static String getHello() {
-        return Job1.hello();
+        System.out.println("Hello la Plateforme");
+        return "Hello la Plateforme";
     }
 
     public static void main(String[] args){
