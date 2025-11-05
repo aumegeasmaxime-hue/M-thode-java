@@ -1,4 +1,6 @@
 public class Job7 {
+
+
     public static String gras (String str) {
 
         String sorti = "";
@@ -18,14 +20,28 @@ public class Job7 {
         return sorti;
     }
     public static String cesar (String str){
-
-
-
-
+        String sorti = "";
+        char[] charWord = str.toCharArray();
+            for (int num :charWord){
+                char a = (char) (num + 2);
+                sorti += a;
+            }
+        return sorti;
     }
 
+
+    public static String plateforme (String str) {
+        String sorti = "";
+
+
+
+        return sorti;
+    }
+
+
     public static void main (String[] args) {
-        System.out.print(gras("Petit avion Si tu N'a pas"));
-        System.out.print(cesar("Petit avion Si tu N'a pas"));
+        System.out.print(gras("Mon petit Oiseau"));
+        System.out.print(cesar("a pris sa volée"));
+        System.out.print(cesar("priapisme camion mecanique"));
     }
 }
