@@ -5,25 +5,26 @@ public class Job6 {
         String sorti = "";
         for (char chars : charStr) {
 
-            if (chars == 'A') {
+
+            if ((chars == 'A') || (chars == 'a')) {
                 chars = '4';
             }
-            else if (chars == 'B') {
+            else if ((chars == 'B') || (chars == 'b'))  {
                 chars = '8';
             }
-            else if (chars == 'E') {
+            else if ((chars == 'E') || (chars == 'e')) {
                 chars = '3';
             }
-            else if (chars == 'G') {
+            else if ((chars == 'G') || (chars == 'g')) {
                 chars = '6';
             }
-            else if (chars == 'L') {
+            else if ((chars == 'L') || (chars == 'l')) {
                 chars = '1';
             }
-            else if (chars == 'S') {
+            else if ((chars == 'S') || (chars == 's')) {
                 chars = '5';
             }
-            else if (chars == 'T') {
+            else if ((chars == 'T') || (chars == 't')) {
                 chars = '7';
             }
             sorti += chars;
@@ -32,7 +33,7 @@ public class Job6 {
     }
 
     public static void main(String[] args){
-        System.out.print(leetSpeak("MARSUPILAMI"));
+        System.out.print(leetSpeak("Marsupilami"));
 
     }
 }
