@@ -4,8 +4,6 @@ public class Job6 {
         char[] charStr = str.toCharArray();
         String sorti = "";
         for (char chars : charStr) {
-
-
             if ((chars == 'A') || (chars == 'a')) {
                 chars = '4';
             }
